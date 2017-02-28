@@ -1,0 +1,17 @@
+body, button, input, table, textarea {
+  font-family: $font-stack;
+}
+
+body, blockquote, fieldset, figure, h1, h2, h3, hr, p, ul, li {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+fieldset {
+  padding: 0;
+
+  border: none;
+}

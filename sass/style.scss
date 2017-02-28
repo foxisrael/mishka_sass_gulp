@@ -1,0 +1,9 @@
+// Переменные и примеси
+@import "variables.scss";
+@import "mixins.scss";
+
+// Подключение шрифтов
+@import "fonts.scss";
+
+// Сброс отступов у некоторых тегов; установка начальных значений
+@import "base.scss";
