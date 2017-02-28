@@ -1,9 +1,19 @@
-// Переменные и примеси
+// Импорт стилей
 @import "variables.scss";
-@import "mixins.scss";
-
-// Подключение шрифтов
+@import "base.scss";
 @import "fonts.scss";
 
-// Сброс отступов у некоторых тегов; установка начальных значений
-@import "base.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/contacts.scss";
+@import "blocks/about-us-items.scss";
+@import "blocks/contacts.scss";
+@import "blocks/form.scss";
+@import "blocks/main-header.scss";
+@import "blocks/menu-items.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/production-promo.scss";
+@import "blocks/promo.scss";
+@import "blocks/reviews.scss";
+@import "blocks/week-sale.scss";
+@import "blocks/btn.scss";

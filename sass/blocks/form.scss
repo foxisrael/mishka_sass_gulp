@@ -1,0 +1,80 @@
+form {
+    margin: 0 -10px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: $color-lightturquoise;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    position: relative;
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: $color-black;
+    margin: 0 0 50px 65px;
+    cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: -65px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $color-gray;
+}
+
+.icon-tick {
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -56px;
+    width: 23px;
+    height: 16px;
+    fill: $color-black;
+}
+
+input[type="radio"] + label::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: -65px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid $color-gray;
+}
+
+input[type="radio"] + label::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -53px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: $color-lightturquoise;
+}

@@ -1,0 +1,15 @@
+.btn{
+  min-width: 259px;
+  min-height: 52px;
+  color: $color-gray;
+  background: $color-white;
+  border: 2px solid $color-gray;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.btn-order{
+  margin-top: 25px;
+}

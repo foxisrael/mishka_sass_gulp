@@ -1,0 +1,51 @@
+.about-us-items{
+  text-align: left;
+  padding: 0 0 55px;
+}
+
+.about-us-items h2{
+  margin-bottom: 30px;
+}
+
+.about-us-items__item{
+  fill: $color-lightturquoise;
+  margin-bottom: 35px;
+}
+
+.about-us-items__item:last-child{
+  margin-bottom: 0;
+}
+
+.about-us-icon{
+  margin: 0 0 15px 10px;
+}
+
+.about-us-items__item p{
+  font-size: $font-size-h3;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.icon-price{
+  position: relative;
+  left: -10px;
+  top: -5px;
+}
+
+.icon-round{
+  position: relative;
+  left: -5px;
+  top: 0px;
+}
+
+.icon-rocket{
+  position: relative;
+  left: -15px;
+  top: -5px;
+}
+
+.icon-present{
+  position: relative;
+  left: -7px;
+  top: 0px;
+}
