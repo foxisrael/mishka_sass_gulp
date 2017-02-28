@@ -12,15 +12,12 @@
   margin: 5px 0 20px;
 }
 
-.week-sale__about{
-  padding: 0 15px 0 0;
-}
-
 .week-sale__about p{
   line-height: 25px;
 }
 
 table{
+  width: 100%;
   margin-top: 10px;
   border-collapse: collapse;
 }
@@ -30,6 +27,8 @@ td{
   padding: 20px 0 0;
   text-align: left;
   border-bottom: 1px solid #444;
+  font-size: 15px;
+  color: $color-gray;
 }
 
 .price{

@@ -1,5 +1,5 @@
 .btn{
-  min-width: 259px;
+  width: 260px;
   min-height: 52px;
   color: $color-gray;
   background: $color-white;
@@ -11,5 +11,10 @@
 }
 
 .btn-order{
+  width: 100%;
   margin-top: 25px;
+}
+
+.btn-write{
+  width: 100%;
 }
