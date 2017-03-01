@@ -23,8 +23,9 @@
 }
 
 .promo-header {
-  padding: 0 30px;
+  width: 220px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .promo-items {
@@ -57,8 +58,8 @@
   background: $color-darkturquoise;
 }
 
-.promo-item--light h3,
-.promo-item--dark h3{
+.promo-item--dark h3,
+.promo-item--light h3 {
   display: block;
   color: $color-white;
   width: 50%;
@@ -80,26 +81,32 @@
   width: 60px;
   height: 60px;
 }
-
 @media (min-width: 768px) {
   .promo {
     min-height: 745px;
     position: relative;
+    margin: 0 -50px;
   }
 
   .promo-header {
+    width: 460px;
     font-size: 43px;
     line-height: 50px;
-    padding: 50px 0 0;
+    padding: 80px 0 0;
     text-align: center;
   }
 
-  .promo-items{
+  .promo-items {
     display: flex;
-    justify-content: space-between;
+    bottom: -35px;
+    margin: 0 40px;
   }
 
-  .promo-items__item{
+  .promo-item--dark,
+  .promo-item--light {
     min-height: 120px;
+    width: 335px;
+    background: $color-darkturquoise url("../img/bg-zigzag-fill.svg") no-repeat center bottom;
+    background-size: 150%;
   }
 }

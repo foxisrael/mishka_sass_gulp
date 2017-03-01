@@ -1,26 +1,25 @@
-.about-us-items{
+.about-us{
   text-align: left;
-  padding: 0 0 55px;
 }
 
-.about-us-items h2{
+.about-us__items h2{
   margin-bottom: 30px;
 }
 
-.about-us-items__item{
+.about-us__item{
   fill: $color-lightturquoise;
   margin-bottom: 35px;
 }
 
-.about-us-items__item:last-child{
+.about-us__item:last-child{
   margin-bottom: 0;
 }
 
-.about-us-icon{
+.about-us__icon{
   margin: 0 0 15px 10px;
 }
 
-.about-us-items__item p{
+.about-us__item p{
   font-size: $font-size-h3;
   font-weight: bold;
   line-height: 20px;
@@ -48,4 +47,27 @@
   position: relative;
   left: -7px;
   top: 0px;
+}
+
+@media (min-width: 768px){
+  .about-us__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 75px 0 0;
+  }
+
+  .about-us__items h2{
+    font-size: 43px;
+    line-height: 30px;
+    width: 100%
+  }
+
+  .about-us__item{
+    width: 50%;
+  }
+
+  .about-us__items p{
+    max-width: 300px;
+  }
 }

@@ -44,3 +44,52 @@ td{
   position: absolute;
   top: 345px;
 }
+
+@media (min-width: 768px) {
+  .week-sale{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 0 0;
+  }
+
+  .week-sale__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 65px;
+  }
+
+  .week-sale__header h2{
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .item-sale{
+    margin: 0;
+  }
+
+  .week-sale__about{
+    width: 45%;
+  }
+
+  .week-sale__about p{
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  td{
+    padding: 15px 0;
+  }
+
+  .week-sale__picture{
+    display: block;
+    position: static;
+    width: 335px;
+  }
+
+  .price{
+    margin: 55px 0 0;
+  }
+}
