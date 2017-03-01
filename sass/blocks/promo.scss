@@ -19,6 +19,7 @@
     background-: url("../img/hero-desktop@2x.jpg");
   }
   background-position-y: 60px;
+  position: relative;
 }
 
 .promo-header {
@@ -26,12 +27,13 @@
   text-align: center;
 }
 
-.menu-items {
-  position: relative;
-  bottom: -100px;
+.promo-items {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
 }
 
-.menu-items__item {
+.promo-item {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -42,20 +44,21 @@
   text-align: left;
 }
 
-.menu-items__item h3 {
+.promo-item h3 {
   font-size: 19px;
   line-height: 24px;
 }
 
-.menu-items__item--light {
+.promo-item--light {
   background: $color-lightturquoise;
 }
 
-.menu-items__item--dark {
+.promo-item--dark {
   background: $color-darkturquoise;
 }
 
-.menu-items__item h3 {
+.promo-item--light h3,
+.promo-item--dark h3{
   display: block;
   color: $color-white;
   width: 50%;
@@ -76,4 +79,27 @@
 .icon-toy {
   width: 60px;
   height: 60px;
+}
+
+@media (min-width: 768px) {
+  .promo {
+    min-height: 745px;
+    position: relative;
+  }
+
+  .promo-header {
+    font-size: 43px;
+    line-height: 50px;
+    padding: 50px 0 0;
+    text-align: center;
+  }
+
+  .promo-items{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .promo-items__item{
+    min-height: 120px;
+  }
 }
